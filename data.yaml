@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['batsman', 'javelin', 'luge', 'motorace', 'wicket']
+
+roboflow:
+  workspace: demo-cnte3
+  project: sports-detection-5s9r2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/demo-cnte3/sports-detection-5s9r2/dataset/1
